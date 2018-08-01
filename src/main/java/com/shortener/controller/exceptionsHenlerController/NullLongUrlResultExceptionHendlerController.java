@@ -9,7 +9,7 @@ public class NullLongUrlResultExceptionHendlerController {
 
     @ExceptionHandler(NullLongUrlResultException.class)
     public String testError() {
-        return "error";
+        return "badpage";
     }
 
 }
